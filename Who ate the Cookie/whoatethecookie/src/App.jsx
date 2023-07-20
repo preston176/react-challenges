@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const LastCookieEater = ({ input }) => {
+const LastCookieEater = ({input}) => {
   let name;
 
   if (typeof input === 'string') {
